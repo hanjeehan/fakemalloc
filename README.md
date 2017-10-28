@@ -3,7 +3,9 @@ Repo to clone for a so with a null returning malloc
 
 To compile :
 
-./compile
+make
+
+(rules : clean, fclean, all, re, libmalloc.so)
 
 If you are on a normal shell :
 LD_PRELOAD=PATH/TO/SO
