@@ -1,0 +1,5 @@
+#!/bin/bash
+
+gcc -c fakemalloc.c -fPIC
+
+gcc -shared -o libmalloc.so fakemalloc.o
